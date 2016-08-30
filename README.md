@@ -50,8 +50,8 @@ $ _
 - Saves all bookmarks to a file called ".NERDTreeBookmarks"
 - Integrates with Vim's NERDTree file navigation plugin
 - Parses through said file to display all bookmarks whe no argument is provided
-- When an argument `bookmark\_name` is provided, navigates to the directory  
-associated with `bookmark\_name`
+- When an argument `bookmark_name` is provided, navigates to the directory  
+associated with `bookmark_name`
 
 ### What it doesn't do:
 - No way to delete files except by manually modifying .NERDTreeBookmarks file
@@ -63,6 +63,13 @@ associated with `bookmark\_name`
 remind myself of whiz's usage and functionality
 - whiz.sh....................Crazy useful directory navigation function, written  
 in bash
+- whiz.png...................Example screenshots of my use case
 ```
 
 ### Example Screenshots:
+### My use case:
+Navigating between my 6 current Hack-A-Week repositories, checking the list
+of available bookmarks, and then navigating to the 'whiz' project repository:
+
+![alt text][outputimage]
+[outputimage]: https://github.com/ztaira14/whiz/blob/master/whiz.png "Example Usage"
