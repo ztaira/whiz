@@ -1,0 +1,39 @@
+## whiz (module)
+### whiz
+NAME
+    whiz -- display and/or navigate to bookmarks set in a text file
+
+SYNOPSIS
+    whiz [bookmark_name]
+
+DESCRIPTION
+    Search the bookmark file for a given bookmark name and navigate to the
+    directory file associated with that bookmark. 
+
+    If no bookmark name is given, display the list of bookmarks. The bookmarks
+    will be displayed as follows:
+
+    Here are the bookmarks you can currently whiz to:
+    [name]..............[directory]
+    [name]..............[directory]
+
+endwhiz
+.
+### whizadd
+NAME
+    whizadd -- add the current directory to the whiz bookmarks file
+
+SYNOPSIS
+    whizadd bookmark_name
+
+DESCRIPTION
+    Upon passing in a bookmark name, this function will create the bookmark
+    bookmark_name that is associated with the current directory. This bookmark
+    will be stored in the whiz bookmarks file, and will be stored in the
+    following format:
+
+    [bookmark_name] [directory]
+
+endwhizadd
+endmodule
+
