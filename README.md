@@ -10,6 +10,13 @@ is way too slow.
 `whizadd [new_bookmark_name]`
 - To add a bookmark manually, modify the ".NERDTreeBookmarks" file in your home
 directory
+- Note: the zmansynopsis command will not work out of the box. That's a function   
+local to my dotfiles that I use to display the man pages I write to document  
+my functions.
+- Note: Also, places like Users/zacharytaira won't exist on your machine, 
+so you'll have to replace those locations with things specific to your
+machine. For example, you'd replace Users/zacharytaira with the location of 
+your current base directory.
 
 ### Features:
 - Easily save and add new bookmarks, so this:
