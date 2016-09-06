@@ -56,7 +56,7 @@ $ _
 ### What it does:
 - Saves all bookmarks to a file called ".NERDTreeBookmarks"
 - Integrates with Vim's NERDTree file navigation plugin
-- Parses through said file to display all bookmarks whe no argument is provided
+- Parses through said file to display all bookmarks when no argument is provided
 - When an argument `bookmark_name` is provided, navigates to the directory  
 associated with `bookmark_name`
 
