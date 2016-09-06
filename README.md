@@ -40,7 +40,7 @@ $ _
 
 Turns into this:
 ```
-$ whiz # display all currently available bookmarks
+$ whiz 
 
 Here are the bookmarks you can currently whiz to:
 ProjectName.........~/Desktop/PersonalStuff/2016/Spring/ProjectName
