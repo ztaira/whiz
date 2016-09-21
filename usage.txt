@@ -10,6 +10,11 @@ DESCRIPTION
     Search the bookmark file for a given bookmark name and navigate to the
     directory file associated with that bookmark. 
 
+    If, instead of navigating to a certain directory, you want to open a window
+    at said directory, use the `whizo` function. It is exactly the same as whiz,
+    but opens a new window via the `open` command rather than navigate to a
+    directory using the `cd` command.
+
     If no bookmark name is given, display the list of bookmarks. The bookmarks
     will be displayed as follows:
 
