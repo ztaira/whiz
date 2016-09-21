@@ -4,9 +4,9 @@ is way too slow.
 
 ### Usage:
 - To create a new bookmarks save file, use: `whizadd [first_bookmark_name]`
-- To display the list of currently available bookmarks, use: `whiz`
+- To display the list of currently available bookmarks, use: `whiz` or `whizo`
 - To navigate directly available to a bookmark, use: `whiz [bookmark_name]`
-- To open a Finder window at a bookmark, use: `whizo [bookmark_name]`
+- To open a new window at a bookmark, use: `whizo [bookmark_name]`
 - To add a bookmark, navigate to the location you want to add and use:
 `whizadd [new_bookmark_name]`
 - To add a bookmark manually, modify the ".NERDTreeBookmarks" file in your home
