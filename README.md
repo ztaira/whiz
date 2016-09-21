@@ -2,6 +2,9 @@
 A bookmark function in bash, because using the `cd` command over and over
 is way too slow. 
 
+Also, in terms of everyday usage, this is by far the most useful function I've
+ever written.
+
 ### Usage:
 - To create a new bookmarks save file, use: `whizadd [first_bookmark_name]`
 - To display the list of currently available bookmarks, use: `whiz` or `whizo`
